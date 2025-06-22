@@ -34,3 +34,26 @@ Key storage with fingerprint authentication.
 The AES Encryption Tool demonstrates a strong understanding of cryptographic principles, file handling, and Python programming. It reflects the student's ability to apply theoretical security knowledge to practical, real-world use cases. This tool is not only useful as a project but also serves as a foundational step toward building advanced secure systems.
 
 For internship evaluations, it showcases the developer's familiarity with secure design, user interaction, and cryptographic implementation—making it a perfect addition to a cybersecurity portfolio.
+
+*OUTPUT*: C:\Users\srini\OneDrive\Tasks\EncryptionTool>python aes_tool.py
+
+[1] Encrypt File
+[2] Decrypt File
+[3] Exit
+
+Choose an option : 1
+Enter file path to encrypt: C:\Users\srini\OneDrive\Desktop\secret.txt
+Enter 32-byte key (or leave empty to auto-generate):
+Generated key (save this!): 4b9b50644ce870b479d3cdc46a43372fb57247360ed5b2c2088a578fdcf8a7b5
+[+] Encrypted and saved as C:\Users\srini\OneDrive\Desktop\secret.txt.enc
+
+C:\Users\srini\OneDrive\Tasks\EncryptionTool>python aes_tool.py
+
+[1] Encrypt File
+[2] Decrypt File
+[3] Exit
+
+Choose an option : 2
+Enter encrypted file path: C:\Users\srini\OneDrive\Desktop\secret.txt.enc
+Enter your 32-byte key in hex:  4b9b50644ce870b479d3cdc46a43372fb57247360ed5b2c2088a578fdcf8a7b5
+[+] Decrypted and saved as C:\Users\srini\OneDrive\Desktop\secret.txt.dec
